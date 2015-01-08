@@ -1,0 +1,33 @@
+{
+  "name": "social-graph-base",
+  "version": "0.0.0",
+  "description": "A basis for social networking applications made with real-time events and a graph database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/social-graph-base.git"
+  },
+  "keywords": [
+    "graph",
+    "social",
+    "network",
+    "example"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/social-graph-base/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/social-graph-base",
+  "dependencies": {
+    "express": "^4.10.7",
+    "fs-promise": "^0.3.1",
+    "glob": "^4.3.2",
+    "node-cypher": "^0.1.4",
+    "par": "^0.3.0",
+    "promise": "^6.0.1"
+  }
+}
